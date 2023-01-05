@@ -31,8 +31,7 @@ header {
     font-size: 18px;
     text-align: center;
     margin-bottom: 30px;
-
-
+    width: 691px;
 }
 .btn-primary {
     font-family: 'Inter';
@@ -47,11 +46,13 @@ header {
     height: 56px;
     border-radius: 5px;
 }
+
 /* Main */
 main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* Donate-Date Section */
 .donate-date {
     text-align: center;
@@ -107,6 +108,7 @@ main {
     width: 765px;
     margin-bottom: 30px;
 }
+
 /* Section Donate Plan */
 .donate-plan {
     margin-top: 130px;
@@ -133,16 +135,33 @@ main {
     gap: 24px;
 }
 .plan {
-    background: #FFFFFF;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    padding: 50px 20px;
+    height: 352px;
     border-radius: 5px;
-    padding: 30px;
 }
 .plan .title {
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 31px;
+    margin-bottom: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+}
+
+.plan .description {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+.food {
+    background: rgba(79, 157, 166, 0.1);
+}
+.shelter {
+    background: rgba(255, 89, 89, 0.1);
+}
+.education {
+    background: rgba(156, 121, 121, 0.1)
 }
 /* Depend Section & Survive Section */
 .depend {
